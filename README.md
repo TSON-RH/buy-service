@@ -1,7 +1,5 @@
 # buy-service
-# Service - stockPriceChart
-
-> Project description
+> Stock order sidebar microservice
 
 ## Related Projects
 
