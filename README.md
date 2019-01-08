@@ -1,6 +1,12 @@
 # buy-service
 > Stock order sidebar microservice
 
+
+## Stock Order Sidebar
+<img width="1280" alt="finalfecsnapshot" src="https://user-images.githubusercontent.com/35894017/50860719-84066f80-134b-11e9-99f0-f45c9a8baeec.png">
+
+- the sidebar in this repo is on the right
+
 ## Related Projects
 
   - https://github.com/TSON-RH/Service-People-Also-Bought
@@ -27,3 +33,5 @@ An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
 - Node 6.13.0
 - etc
+
+
