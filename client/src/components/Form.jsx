@@ -84,13 +84,13 @@ class Form extends React.Component {
               <span>Shares</span>
               <input type="number" 
                 className={form.shareField}
-                onChange={this.handleShares}></input>
+                onChange={this.handleShares}placeholder={0}></input>
             </label>
             <div>
               <MarketPrice prices={this.state.marketPrice}/>
             </div>
             <div className={form.label}>
-              <EstimatedCost estimation={this.state.counter * this.state.marketPrice}/>
+              <EstimatedCost estimation={Math.round(this.state.counter * this.state.marketPrice)}/>
             </div>
           </div>
           <div className= {form.reviewOrderContainer}>
